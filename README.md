@@ -1,7 +1,6 @@
 # Dentwise 🦷  
 **AI Voice Assistant & Appointment Booking Platform**
 
-<<<<<<< HEAD
 Dentwise is a modern full-stack web application designed for dental clinics. It combines appointment scheduling, authentication, subscriptions, and an AI-powered voice assistant into a single seamless platform.
 
 The app is built with scalability and real-world production use in mind, using modern tools from the Next.js ecosystem.
