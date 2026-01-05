@@ -50,6 +50,7 @@ The application is built using modern web technologies with a strong focus on sc
 
 ---
 
+```
 src/
 ├─ app/ # App Router pages and layouts
 ├─ components/ # Reusable UI components
@@ -63,6 +64,7 @@ src/
 prisma/
 ├─ schema.prisma # Database schema
 └─ migrations/ # Prisma migrations
+```
 
 ## 🚀 Getting Started
 
