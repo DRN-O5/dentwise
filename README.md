@@ -49,6 +49,7 @@ The application is built using modern web technologies with a strong focus on sc
 - Vapi for real-time AI voice interactions
 
 ---
+## 📂 Project Structure
 
 ```
 src/
@@ -58,12 +59,10 @@ src/
 │ ├─ actions/ # Server actions (appointments, users, billing)
 │ ├─ prisma.ts # Prisma client
 │ └─ utils.ts # Shared helpers
-├─ hooks/ # Custom React hooks
-└─ styles/ # Global styles
+└─ hooks/ # Custom React hooks
 
 prisma/
-├─ schema.prisma # Database schema
-└─ migrations/ # Prisma migrations
+└─ schema.prisma # Database schema 
 ```
 
 ## 🚀 Getting Started
@@ -109,5 +108,5 @@ npx prisma generate
 ```bash
 npm run dev
 ```
-## 📂 Project Structure (High Level)
+
 
