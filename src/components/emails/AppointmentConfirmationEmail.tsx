@@ -35,13 +35,6 @@ function AppointmentConfirmationEmail({
       <Body style={main}>
         <Container style={container}>
           <Section style={logoContainer}>
-            <Img
-              src="https://i.ibb.co.com/tRy6cC2/logo.png"
-              width="50"
-              height="50"
-              alt="DentWise"
-              style={logo}
-            />
             <Text style={logoText}>DentWise</Text>
           </Section>
 
@@ -77,7 +70,7 @@ function AppointmentConfirmationEmail({
           </Section>
 
           <Text style={text}>
-            Please arrive 15 minutes early for your appointment. If you need to reschedule or
+            If you need to reschedule or
             cancel, please contact us at least 24 hours in advance.
           </Text>
 
@@ -96,6 +89,8 @@ function AppointmentConfirmationEmail({
           <Text style={footerText}>
             If you have any questions, please contact us at support@dentwise.com
           </Text>
+          <br />
+          <Text>This is an automated email for developer testing purposes using resend emails.</Text>
         </Container>
       </Body>
     </Html>

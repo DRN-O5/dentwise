@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dentwise 🦷  
+**AI Voice Assistant & Appointment Booking Platform**
 
-## Getting Started
+Dentwise is a modern full-stack web application designed for dental clinics. It combines appointment scheduling, authentication, subscriptions, and an AI-powered voice assistant into a single seamless platform.
 
-First, run the development server:
+The app is built with scalability and real-world production use in mind, using modern tools from the Next.js ecosystem.
+
+---
+
+## ✨ Features
+
+- Modern landing page with gradients and responsive design  
+- Authentication using Clerk (Google, GitHub, Email & Password)
+- Secure email verification using a 6-digit OTP
+- Appointment booking system with a guided 3-step flow:
+  - Select dentist
+  - Choose service & time
+  - Confirm booking
+- Email notifications for appointment confirmations
+- Admin dashboard for managing bookings and users
+- AI Voice Assistant powered by Vapi (available on paid plans)
+- Subscription system with Free + 2 Paid Plans
+- Secure payments via Clerk Billing
+- Automatic invoice generation and email delivery
+- Smart subscription upgrades (users pay only the difference)
+- PostgreSQL database for persistent storage
+- Fast and efficient data fetching using TanStack Query
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **Next.js (App Router)** – Server-side rendering and routing
+- **TypeScript** – Type safety and maintainability
+- **Tailwind CSS** – Utility-first styling
+- **shadcn/ui** – Accessible UI components
+- **TanStack Query** – Server state management and caching
+
+### Backend
+- **Next.js Server Actions** – Backend logic without a separate API
+- **PostgreSQL** – Relational database
+- **Prisma** – ORM for database access
+
+### Authentication & Payments
+- **Clerk** – Authentication, user management, and billing
+- **Resend** – Transactional emails (verification, booking, invoices)
+
+### AI
+- **Vapi** – AI voice assistant for real-time voice interactions (Pro plans)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/your-username/dentwise.git
+cd dentwise
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
+npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
